@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Generator</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico?12" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="banner-title">Linear gradient Background Generator</h1>
+    <div class="copybg">
+      <input type="text" value="this is value" id="myInput">
+      <span class="tooltip">Copied 😮</span>
+      <button id="btn">Copy</button>
+    </div>
+  </header>
+  <div class="container">
+    <div class="left">
+
+    </div>
+    <div class="right">
+      <div class="color-wrap">
+        <input type="color" id="color-left" value="#009FFF">
+        <input type="color" id="color-right" value="#ec2F4B">
+        <input type="range" min="0" max="360" id="range" value="90"><span id="deg">90°</span>
+      </div>
+      <div id="container"></div>
+      <h5 class="profile"><a href="https://pushpadangi.com.np" target="_blank">Developer Profile</a></h5>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
